@@ -7,9 +7,9 @@ with open("tweets.txt", "r") as filestream:
       j = i.replace("\n", '')
       words.append(j)
 
-print(words)
+#print(words)
 uniq_words = set(words)
 uniq_count = len(uniq_words)
-print(uniq_words)
-print(uniq_count)
+#print(uniq_words)
+print("count of unique words", uniq_count)
 
