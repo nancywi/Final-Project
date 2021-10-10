@@ -11,5 +11,5 @@ with open("tweets.txt", "r") as filestream:
 uniq_words = set(words)
 uniq_count = len(uniq_words)
 #print(uniq_words)
-print("count of unique words", uniq_count)
+print("count of unique words = ", uniq_count)
 
